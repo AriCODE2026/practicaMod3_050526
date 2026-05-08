@@ -31,8 +31,7 @@ def obtener_datos_usuario(username, password):
     try:
       cursor = conn.cursor()
       
-      # Verificar si el usuario y contraseña existen en la tabla
-      credenciales
+      # Verificar si el usuario y contraseña existen en la tabla credenciales
       query = """
       SELECT u.id_usuario, u.nombre, u.correo, u.telefono, u.fecha_nacimiento
       FROM credenciales c
